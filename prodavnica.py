@@ -25,8 +25,8 @@ def prodazba (x):
         z=p1*p2
         p=p+z
         i=input("Dali sakate da prodolzite so kupuvanje D/N: ")
-    m=magacin[produkt]['kolicina']-y[produkt]['kolicina']
-    magacin[produkt]['kolicina']=m
+        m=magacin[produkt]['kolicina']-y[produkt]['kolicina']
+        magacin[produkt]['kolicina']=m
     print("Vo magacin imate: {}".format(magacin))
     print("Fiskalna smetka: {}". format(y))
     return p
